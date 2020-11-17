@@ -1,0 +1,194 @@
+
+@font-face{
+    font-family: "Mazzards";
+    src: local(Raleway), url(../font/MazzardH-SemiBold.otf);
+    font-weight: 600;
+  }
+  
+  @font-face{
+    font-family: "Mazzards";
+    src: local(Raleway), url(../font/MazzardH-Medium.otf);
+    font-weight: normal;
+  }
+  
+  @font-face{
+    font-family: "Mazzards";
+    src: local(Raleway), url(./font/MazzardL-Regular.otf);
+    font-weight: 200;
+  }
+  
+  @font-face{
+    font-family: "Mazzards";
+    src: local(Raleway), url(../font/MazzardM-Bold.otf);
+    font-weight: 800;
+  }
+  
+  @font-face{
+    font-family: "Mazzards";
+    src: local(Raleway), url(../font/MazzardH-ExtraLight.otf);
+    font-weight: 100;
+  }
+  
+
+body{
+    margin: 0;
+    background-color: #141414;
+    color: white;
+    font-family: "Mazzards";
+}
+
+a{
+    text-decoration:none;
+    color: gray;
+    line-height: 40px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    line-height: 30px;
+}
+
+.home{
+    position: relative;
+    padding-top: 13%;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url("./alonso.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-area{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title-area h1{
+    display: inline-block;
+    font-size: 120px;
+}
+
+.alonso{
+    height: 100%;
+    background-color: red;
+}
+
+#title1{
+    margin-right: 100px;
+}
+
+.emissoras{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 40px;
+}
+
+.logo-emissoras{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-emissoras img{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.logo{
+    height: 50px;
+    opacity: .3;
+    margin: 10px;
+}
+
+.landing{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.app-area{
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    display: inline-flex;
+    align-content: flex-end;
+    text-align: left;
+}
+
+.app-area *{
+    display: inline-block;
+}
+
+.screens{
+    height: 100%;
+    min-width: 500px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.desc{
+    height: 100%;
+    margin-right: 40px;
+}
+
+.desc *{
+    display: block;
+}
+
+.desc a{
+    text-decoration: underline;
+}
+
+.topic{
+    text-decoration: underline;
+    font-size: 20px;
+    color: gray;
+    line-height: 0px;
+    margin-left: 180px;
+    margin-top: -5px;
+}
+
+#horizontal img{
+    height: 50%;
+    margin-top: -130px;
+}
+
+#horizontal{
+    margin-top: 120px;
+    display: block;
+    padding-left: 100px;
+}
+
+
+#vertical img{
+    margin-right: -40px;
+}
+
+
+.screens img{
+    height: 85%;
+    box-shadow: rgb(14, 14, 14) 20px 20px 0px;
+    border-radius: 10px;
+}
+
+.palestras{
+    width: 80%;
+    padding: 100px;
+    padding-top: 0px;
+    display: inline-flex;
+}
