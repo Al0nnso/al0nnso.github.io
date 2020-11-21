@@ -35,6 +35,8 @@ body{
     background-color: #141414;
     color: white;
     font-family: "Mazzards";
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -189,7 +191,6 @@ p{
     margin-right: -40px;
 }
 
-
 .screens img{
     height: 85%;
     box-shadow: rgb(14, 14, 14) 20px 20px 0px;
@@ -201,4 +202,116 @@ p{
     padding: 100px;
     padding-top: 0px;
     display: inline-flex;
+}
+
+#globo{
+    height: 60px;
+}
+#band{
+    height: 50px;
+}
+#canaltech{
+    height: 60px;
+}
+#g1{
+    height: 50px;
+}
+
+#talks{
+    width: 25%;
+}
+#articles{
+    width: 25%;
+}
+#social{
+    width: 10%;
+}
+#project-1{
+    width: 30%;
+}
+#project-2{
+    width: 50%;
+}
+#project-3{
+    width: 30%;
+}
+#project-4{
+    width: 50%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .logo{
+        height: 10px;
+        margin: 5px;
+    }
+    .logo-emissoras img{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+    #globo{
+        height: 40px;
+    }
+    #band{
+        height: 30px;
+    }
+    #canaltech{
+        height: 40px;
+    }
+    #g1{
+        height: 30px;
+    }
+    .title-area h1{
+        display: inline-block;
+        font-size: 50px;
+        top: 120px;
+    }#title1{
+        margin-right: 0px;
+    }
+    .topic{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .desc{
+        height: 300px;
+        margin-right: 40px;
+    }
+
+    .app-area{
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+    .app-area div{
+        margin: 0 auto;
+        padding: 0px;
+        text-align: center;
+    }
+    .app-area desc{
+
+    }
+    #talks,#articles,#social,#project-1,#project-2,#project-3,#project-4{
+        width: 100%;
+    }
+
+    .screens{
+        height: 65%;
+        width: 100%;
+        visibility: hidden;
+    }
+
+    /*.screens img{
+        box-shadow: rgb(14, 14, 14) 5px 5px 0px;
+    }*/
+    
+    #horizontal{
+        margin-top: -30px;
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+
 }
